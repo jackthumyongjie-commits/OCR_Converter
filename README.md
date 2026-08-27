@@ -4,6 +4,8 @@ Extract text from images with Gemini AI, then edit, copy, print, or export to Wo
 
 A lightweight PHP web app for XAMPP and shared hosting — **no database required**.
 
+![OCR Converter home](screenshots/01-home-en.png)
+
 ## Quick start (XAMPP)
 
 1. Place the project in `C:\xampp\htdocs\project\OCR_Converter`
@@ -38,6 +40,7 @@ OCR_Converter/
 ├── styles.css             UI styles
 ├── config.example.php     Config template
 ├── config.php             API key (private, gitignored)
+├── screenshots/           README preview image
 ├── .htaccess              Blocks public access to config.php
 └── LICENSE                MIT License
 ```
