@@ -1,0 +1,8 @@
+# Block direct access to private config
+<Files "config.php">
+    Require all denied
+</Files>
+
+# Optional: increase upload limit hint (may still need cPanel PHP settings)
+php_value upload_max_filesize 10M
+php_value post_max_size 12M
